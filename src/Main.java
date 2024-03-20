@@ -8,9 +8,9 @@ public class Main {
         // Get the input file and output file from the user
         File fin = Console.GetFileToRead();
         File fout = Console.GetFileToWrite();
-        Counter cnt = new Counter();
 
         // Count the number of different symbols in the file
+        Counter cnt = new Counter();
         cnt.CountingInTheFile(fin);
 
         // Write the results to the output file
